@@ -1,6 +1,6 @@
 ## Description
 
-This project structure represents a Test Automation Framework. The main components are organized as follows:
+This project represents a Test Automation Framework, primarily focused on web testing using Selenium and the Page Object Model (POM). The main components are organized as follows:
 
 ### Core Package
 - `BaseApiService.java`: Contains base methods for API services.
@@ -23,4 +23,5 @@ The `resources` folder configuration files, test data, or other non-Java resourc
 The `test` folder is where test classes would be placed, following a similar package structure as the `main` folder.
 
 ## Usage
-This framework supports both API and Web testing, with a focus on providing base classes and utilities for test creation and execution. Developers can extend the base classes and utilize the provided enums and managers to create robust and maintainable automated tests.
+This framework is designed for web testing using Selenium and follows the Page Object Model (POM) approach for better test maintainability and scalability. 
+To get started with the framework, extend the provided base classes in the test folder and utilize the POM structure for creating test cases. The framework supports various browser modes (headless and normal) and configurations, making it easy to run tests across different environments.
